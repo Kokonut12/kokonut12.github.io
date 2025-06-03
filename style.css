@@ -1,0 +1,47 @@
+
+/* основний контейнер */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+    
+}
+
+/* зовнішні відступи між картами */
+.card {
+    margin: 10px;
+    border: none;
+}
+
+
+/* простір між назвою карти-товару і ціною */
+.space-between_title_price {
+    display: flex;
+    justify-content: space-between;
+    
+}
+/* ==================================== */
+
+/* стилі для кнопок */
+
+a.my-custom-btn {
+    background-color: #17929b; /* новий колір */
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 10px 6px rgba(255, 0, 0, 2); /* тінь знизу */
+}
+
+a.my-custom-btn:hover {
+    background-color:  #14747a; /* темніший варіант при наведенні */
+}
+
+/* стилі для картинок, кути радуса, обводки */
+
+.my-image-style {
+    border-radius: 45px 45px 45px 45px;
+}
+
+/* ==================================== */
